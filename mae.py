@@ -10,7 +10,7 @@ import torch.nn.functional as F
 
 from transformer import Transformer, ViT
 
-class 2DSurveyMAE(L.LightningModule):
+class Survey2DMAE(L.LightningModule):
     def __init__(
         self,
         *,
